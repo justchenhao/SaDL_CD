@@ -15,6 +15,10 @@ einops  0.3.0
 kornia 0.6.3
 ```
 
+## logs
+
+20230407： update the download link of the cropped Inria data.
+
 ## Installation
 
 Clone this repo:
@@ -26,7 +30,7 @@ cd SaDL_CD
 
 ## Quick Start
 
-You can simply run `python main_ssl.py` to train our model (``sadl_fpn_m2_resnet18_sample16_syn1`) on the given small samples (in the folder `samples`).
+You can simply run `python main_ssl.py` to train our model (`sadl_fpn_m2_resnet18_sample16_syn1`) on the given small samples (in the folder `samples`).
 
 ## Training
 
@@ -69,7 +73,7 @@ We leverage image-mask pairs from the existing Inria building segmentation datas
 
 The original Inria building segmentation dataset can be found at: https://project.inria.fr/aerialimagelabeling/
 
-Our processed pretraining dataset can be accessed by Baidu yun (code: vldo): [link](https://pan.baidu.com/s/1mEy5RfomClXWdi9I28Rp8A)
+Our processed pretraining dataset can be accessed by Baidu yun (code: 2p1b): [link](https://pan.baidu.com/s/1ObAu_4Xm3SWCdMvAfiN7yw)
 
 Note that you need only the image-mask pairs in `A` and `label` to train our model. We also provide the spatially registered image of another temporal in `B` for possible usage. 
 
